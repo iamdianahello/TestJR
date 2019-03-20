@@ -9,7 +9,7 @@ public class Login {
         this.driver = driver;
     }
 
-    private By emailField = By.cssSelector("input.ng-touched");
+    private By emailField = By.cssSelector("form.ng-untouched > div:nth-child(1) > input:nth-child(1)");
     private By passField = By.cssSelector("div.form-group:nth-child(2) > input:nth-child(1)");
     private By buttonLogin = By.cssSelector(".button--success");
     private By heading = By.cssSelector(".auth-widget__head");

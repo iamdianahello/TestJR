@@ -23,5 +23,7 @@ public class MainClass {
         mainPage.clickBeginEducation();
         signUp.signNameEmailPass("diana", "diana63b@yandex.ru", "PassPass");
 
+        System.out.println(signUp.getHeadingText());
+
     }
 }

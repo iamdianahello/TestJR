@@ -53,4 +53,9 @@ public class SignUp {
         driver.findElement(haveAccountLogin).click();
         return new Login(driver);
     }
+
+    public SignUp clickNotRobot() {
+        driver.findElement(checkboxNotRobot).click();
+        return this;
+    }
 }
